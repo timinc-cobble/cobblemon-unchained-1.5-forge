@@ -1,0 +1,39 @@
+modLoader = "kotlinforforge"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "unchained"
+version = "1.5-forge-1.0.0"
+displayName = "Cobblemon Unchained"
+description = '''
+Naturally spawning Hidden Abilities. KOs and/or captures increase nearby shiny rates, and can also give perfect IVs to nearby spawns.
+'''
+
+[[dependencies.unchained]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.unchained]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.unchained]]
+modId = "cobblemon"
+mandatory = true
+versionRange = "[1.5.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.unchained]]
+modId = "cobbled_counter"
+mandatory = true
+versionRange = "[1.5-forge-1.0.0,)"
+ordering = "NONE"
+side = "BOTH"
