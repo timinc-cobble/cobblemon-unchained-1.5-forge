@@ -4,13 +4,13 @@ import com.cobblemon.mod.common.api.spawning.spawner.PlayerSpawnerFactory
 import net.minecraftforge.event.server.ServerStartedEvent
 import net.minecraftforge.eventbus.api.SubscribeEvent
 import net.minecraftforge.fml.common.Mod
+import us.timinc.mc.cobblemon.chaining.config.ConfigBuilder
 import us.timinc.mc.cobblemon.chaining.config.HiddenBoostConfig
 import us.timinc.mc.cobblemon.chaining.config.IvBoostConfig
 import us.timinc.mc.cobblemon.chaining.config.ShinyBoostConfig
 import us.timinc.mc.cobblemon.chaining.influences.HiddenAbilityBooster
 import us.timinc.mc.cobblemon.chaining.influences.IvBooster
 import us.timinc.mc.cobblemon.chaining.influences.ShinyBooster
-import us.timinc.mc.config.ConfigBuilder
 
 @Mod(Chaining.MOD_ID)
 object Chaining {
